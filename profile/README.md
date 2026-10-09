@@ -21,13 +21,28 @@ No need to glue together a CDP, an email service, product recommendations, site 
 
 ## What it does
 
-| | |
-|---|---|
-| **Collect** — JS tracker, server-side API, file imports, scheduled data sources, migration from Mindbox, Customer.io and Retail Rocket | **Unify** — identity resolution by email, phone and IDs; events, orders and messages of every customer in one profile |
-| **Segment** — a condition builder over events and attributes, real-time and scheduled, syncs to Meta, Google Ads, Yandex Audiences and VK Ads | **Predict** — RFM, churn risk, purchase probability, predicted revenue and engagement for every profile, with model quality in plain sight |
-| **Engage** — visual journeys with a template library, scheduled campaigns with A/B tests, quiet hours and frequency caps | **Deliver** — a built-in mail service sending from your domain (DKIM, warm-up, suppression list), or your own SMTP and messaging gateways |
-| **Recommend** — popular, viewed and bought together, similar and personal products on your site, in emails and in journeys | **Search** — product search with suggestions, typo and keyboard-layout tolerance, ranked by what customers actually buy |
-| **Analyze** — a project dashboard, channel and journey reports, segment dynamics, a live event stream | **White-label** — your name, colors, icon and domain; client projects, roles limited to specific resources, an audit log |
+<table>
+  <tr>
+    <td width="50%"><b>Collect</b> — JS tracker, server-side API, file imports, scheduled data sources, migration from Mindbox, Customer.io and Retail Rocket</td>
+    <td width="50%"><b>Unify</b> — identity resolution by email, phone and IDs; events, orders and messages of every customer in one profile</td>
+  </tr>
+  <tr>
+    <td width="50%"><b>Segment</b> — a condition builder over events and attributes, real-time and scheduled, syncs to Meta, Google Ads, Yandex Audiences and VK Ads</td>
+    <td width="50%"><b>Predict</b> — RFM, churn risk, purchase probability, predicted revenue and engagement for every profile, with model quality in plain sight</td>
+  </tr>
+  <tr>
+    <td width="50%"><b>Engage</b> — visual journeys with a template library, scheduled campaigns with A/B tests, quiet hours and frequency caps</td>
+    <td width="50%"><b>Deliver</b> — a built-in mail service sending from your domain (DKIM, warm-up, suppression list), or your own SMTP and messaging gateways</td>
+  </tr>
+  <tr>
+    <td width="50%"><b>Recommend</b> — popular, viewed and bought together, similar and personal products on your site, in emails and in journeys</td>
+    <td width="50%"><b>Search</b> — product search with suggestions, typo and keyboard-layout tolerance, ranked by what customers actually buy</td>
+  </tr>
+  <tr>
+    <td width="50%"><b>Analyze</b> — a project dashboard, channel and journey reports, segment dynamics, a live event stream</td>
+    <td width="50%"><b>White-label</b> — your name, colors, icon and domain; client projects, roles limited to specific resources, an audit log</td>
+  </tr>
+</table>
 
 The interface is available in 10 languages. Try it for 14 days on the Growth plan — [no card required](https://cdp.onetrace.pro/register).
 
