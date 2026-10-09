@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account, billing or project support
+    url: https://github.com/OneTracePro/.github/blob/main/SUPPORT.md
+    about: Questions about your OneTrace.pro account or project go to support@onetrace.pro — please don't post project data in public issues.
+  - name: Help center
+    url: https://cdp.onetrace.pro/docs/en
+    about: Step-by-step articles for every section of the platform.
+  - name: API reference
+    url: https://onetrace.pro/en/docs/api
+    about: The public API, events and the JavaScript tracker.
+  - name: Report a security issue
+    url: https://github.com/OneTracePro/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, not in public issues.

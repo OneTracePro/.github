@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in this library or plugin does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the report! Please **do not include API keys or customer data** — replace them with placeholders such as `cdp_sk_…`.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version of this library or plugin.
+      placeholder: 1.2.0
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: PHP and platform versions (Laravel, WordPress and WooCommerce, Magento), and anything else relevant.
+      placeholder: PHP 8.4, WordPress 6.8, WooCommerce 10.2
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: A minimal code sample or the exact steps.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and errors
+      description: Error messages or log lines, with keys and personal data removed.
+      render: text
